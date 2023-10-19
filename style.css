@@ -1,0 +1,16 @@
+@media (max-width: 766px) {
+    .card {
+        text-align: center;
+    }
+  }
+
+main {
+    font-family: 'Oxygen', sans-serif;
+    color: rgb(170, 164, 164);
+}
+
+body {
+    height: 200px;
+
+    background-image: linear-gradient(to right, rgb(34, 33, 33) , rgb(92, 92, 92));
+}
