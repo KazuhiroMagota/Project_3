@@ -8,7 +8,7 @@ let toCountry = document.querySelector('#toAmount')
 let exchangeRate = document.querySelector('#exchangeRate')
 let swap = document.querySelector('#swap')
 // API
-let APIrates = "https://data.fixer.io/api/latest?access_key=b6f803376ec7bfd0fbef41985ec34c2d"
+let APIrates = "http://data.fixer.io/api/latest?access_key=b6f803376ec7bfd0fbef41985ec34c2d"
 
 
 
@@ -26,6 +26,7 @@ function show(result) {
     
     from.innerHTML += `<option value="${asArray[i][1]}">${asArray[i][0]}</option>`;
     to.innerHTML += `<option value="${asArray[i][1]}">${asArray[i][0]}</option>`;
+    console.log(asArray)
 
 }};
 
