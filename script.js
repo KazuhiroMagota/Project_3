@@ -8,7 +8,7 @@ let toCountry = document.querySelector('#toAmount')
 let exchangeRate = document.querySelector('#exchangeRate')
 let swap = document.querySelector('#swap')
 // API
-let APIrates = "http://data.fixer.io/api/latest?access_key=b6f803376ec7bfd0fbef41985ec34c2d"
+let APIrates = "https://data.fixer.io/api/latest?access_key=b6f803376ec7bfd0fbef41985ec34c2d"
 
 
 
