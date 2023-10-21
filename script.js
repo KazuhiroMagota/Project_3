@@ -16,7 +16,7 @@ let APIrates = "http://data.fixer.io/api/latest?access_key=b6f803376ec7bfd0fbef4
 fetch(APIrates)
 .then((response) => response.json())
 .then((result) => {
-
+     
     show(result);
 });
 
@@ -26,7 +26,6 @@ function show(result) {
     
     from.innerHTML += `<option value="${asArray[i][1]}">${asArray[i][0]}</option>`;
     to.innerHTML += `<option value="${asArray[i][1]}">${asArray[i][0]}</option>`;
-    console.log(asArray)
 
 }};
 
